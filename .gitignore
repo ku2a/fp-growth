@@ -8,7 +8,11 @@ wheels/
 *.xls
 # Virtual environments
 .venv
-
+jupyter_lab.log
+main-Copy1.ipynb
+.claude/
 # Jupyter
 .ipynb_checkpoints/
 .virtual_documents/
+.jupyter_ystore.db
+.jupyter/

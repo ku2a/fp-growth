@@ -1,14 +1,16 @@
 [project]
 name = "asociacion"
 version = "0.1.0"
-description = "Add your description here"
+description = "Association rule mining (Apriori, FP-Growth, ECLAT) on The Bread Basket dataset"
 readme = "README.md"
 authors = [
     { name = "Pablo", email = "pablo.suarez@futurton.com" }
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "ipykernel>=7.4.0",
     "jupyter>=1.1.1",
+    "jupyter-collaboration>=5.0.4",
     "matplotlib>=3.11.2",
     "mlxtend>=0.25.0",
     "numpy>=2.5.3",
